@@ -1,0 +1,46 @@
+/* Importar Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Estilos para el Header Admin */
+.navbar {
+  background-color: #333; /* Color de fondo oscuro */
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Tamaño de fuente para el nombre de la marca */
+  color: #fff; /* Color del texto de la marca */
+  font-family: 'Poppins', sans-serif; /* Aplicar la fuente Poppins */
+}
+
+.navbar-brand:hover {
+  color: #f9f9f9; /* Color del texto al pasar el mouse */
+}
+
+.navbar-nav .nav-link {
+  color: #fff; /* Color del texto de los enlaces */
+  font-size: 1rem; /* Tamaño de fuente para los enlaces */
+  font-family: 'Poppins', sans-serif; /* Aplicar la fuente Poppins */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f9f9f9; /* Color del texto al pasar el mouse */
+}
+
+.dropdown-menu {
+  background-color: #444; /* Color de fondo del menú desplegable */
+  border: none; /* Sin borde */
+}
+
+.dropdown-item {
+  color: #fff; /* Color del texto de los elementos del menú */
+  font-family: 'Poppins', sans-serif; /* Aplicar la fuente Poppins */
+}
+
+.dropdown-item:hover {
+  background-color: #555; /* Color de fondo al pasar el mouse */
+  color: #f9f9f9; /* Color del texto al pasar el mouse */
+}
+
+.dropdown-divider {
+  background-color: #666; /* Color del divisor en el menú desplegable */
+}

@@ -1,0 +1,59 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; /* Aseguramos que toda la página use Poppins */
+}
+
+/* Estilos para el encabezado y el mensaje de pago completado */
+.payment-completed {
+  max-width: 600px; /* Ancho máximo del contenedor */
+  margin: 2rem auto; /* Margen centrado */
+  padding: 1.5rem; /* Espaciado interno */
+  background: #fff; /* Fondo blanco para el contenedor */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  text-align: center; /* Centrar texto dentro del contenedor */
+}
+
+h2 {
+  font-size: 2rem; /* Tamaño de fuente para el encabezado */
+  margin-bottom: 1rem; /* Espaciado inferior */
+  color: #333; /* Color del encabezado */
+}
+
+p {
+  font-size: 1.125rem; /* Tamaño de fuente para el párrafo */
+  margin-bottom: 1.5rem; /* Espaciado inferior */
+  color: #555; /* Color gris oscuro para el texto */
+}
+
+/* Estilos para el breadcrumb */
+.breadcrumb {
+  padding: 0; /* Sin padding */
+  margin: 1rem 0; /* Espaciado superior e inferior */
+}
+
+.breadcrumb-item {
+  list-style: none; /* Sin viñetas */
+  display: inline; /* Mostrar en línea */
+}
+
+.breadcrumb-item a {
+  color: #333; /* Color azul para el enlace */
+  text-decoration: none; /* Sin subrayado */
+  font-size: 1rem; /* Tamaño de fuente para el enlace */
+}
+
+.breadcrumb-item a:hover {
+  text-decoration: underline; /* Subrayar al pasar el mouse */
+}
+
+.breadcrumb-item:not(:last-child)::after {
+  content: '>'; /* Separador entre elementos */
+  margin: 0 0.5rem; /* Espaciado alrededor del separador */
+  color: #555; /* Color gris para el separador */
+}

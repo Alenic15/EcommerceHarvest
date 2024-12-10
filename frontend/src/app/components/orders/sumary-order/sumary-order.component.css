@@ -1,0 +1,138 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; /* Aseguramos que toda la página use Poppins */
+}
+
+body {
+  background: #f9f9f9; /* Color de fondo claro */
+  color: #333; /* Color gris oscuro para el texto */
+}
+
+.container {
+  max-width: 800px; /* Ancho máximo del contenedor */
+  margin: 2rem auto; /* Margen centrado */
+  padding: 1.5rem; /* Espaciado interno */
+  background: #fff; /* Fondo blanco para el contenedor */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+h1 {
+  font-size: 2.5rem; /* Tamaño de fuente del encabezado principal */
+  margin-bottom: 1rem; /* Espaciado inferior */
+  text-align: center; /* Centrar texto */
+  color: #343a40; /* Color del encabezado */
+}
+
+h5 {
+  font-size: 1.25rem; /* Tamaño reducido para "DATOS ORDEN" y "PRODUCTOS" */
+  margin-bottom: 0.75rem; /* Espaciado inferior */
+  color: #343a40; /* Color del título */
+}
+
+h6 {
+  font-size: 1rem; /* Tamaño de fuente para los detalles */
+  margin-bottom: 0.5rem; /* Espaciado inferior */
+}
+
+.breadcrumb {
+  background: transparent; /* Fondo transparente para las migas de pan */
+  padding: 0; /* Sin padding */
+  margin-bottom: 1.5rem; /* Espaciado inferior */
+}
+
+.breadcrumb-item a {
+  color: #007bff; /* Color azul para los enlaces */
+  text-decoration: none; /* Sin subrayado */
+}
+
+.breadcrumb-item a:hover {
+  text-decoration: underline; /* Subrayar al pasar el mouse */
+}
+
+.card {
+  background: #fff; /* Fondo blanco para las tarjetas */
+  border: 1px solid #e0e0e0; /* Borde gris claro */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  margin-bottom: 1.5rem; /* Espacio inferior entre tarjetas */
+  padding: 1.5rem; /* Espaciado interno */
+}
+
+.card-title {
+  font-size: 1.75rem; /* Tamaño de fuente para el título de la tarjeta */
+  margin-bottom: 1rem; /* Espaciado inferior */
+  color: #343a40; /* Color del título */
+}
+
+.table {
+  width: 100%; /* Ancho completo de la tabla */
+  margin-top: 1rem; /* Espacio superior para la tabla */
+  border-collapse: collapse; /* Colapsar bordes de la tabla */
+}
+
+.table th, .table td {
+  padding: 12px; /* Espaciado interno para celdas */
+  text-align: left; /* Alinear texto a la izquierda */
+  border-bottom: 1px solid #e0e0e0; /* Borde inferior para las filas */
+}
+
+.table th {
+  background: #f8f9fa; /* Fondo gris claro para el encabezado de la tabla */
+  font-weight: bold; /* Negrita para el encabezado */
+}
+
+.table tr:hover {
+  background-color: #f1f1f1; /* Color de fondo al pasar el mouse sobre la fila */
+}
+
+/* Botones */
+.btn-primary {
+  color: #fff; /* Color del texto */
+  background: #333; /* Color gris oscuro para el botón "Pagar con Paypal" */
+  font-size: 1rem; /* Tamaño de fuente */
+  padding: 10px 15px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cambiar cursor al pasar el mouse */
+  transition: background 0.3s; /* Transición suave */
+ display: inline-block; /* Para que el botón se comporte como un bloque en línea */
+  margin-top: 1rem; /* Espacio superior para el botón */
+}
+
+.btn-primary:hover {
+  background: #555; /* Color gris más claro al pasar el mouse */
+}
+
+.btn-danger {
+  color: #fff; /* Color del texto */
+  background: #5C4033; /* Color marrón oscuro para el botón "Eliminar" */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  padding: 5px 10px; /* Espaciado interno */
+  cursor: pointer; /* Cambiar cursor al pasar el mouse */
+  transition: background 0.3s; /* Transición suave */
+}
+
+.btn-danger:hover {
+  background: #7A5B4D; /* Color marrón más claro al pasar el mouse */
+}
+
+/* Estilos para el Footer */
+footer {
+  background-color: #343a40; /* Color de fondo oscuro */
+  padding: 10px 0; /* Espaciado superior e inferior */
+  margin: 0; /* Asegúrate de que no haya margen adicional */
+  text-align: center; /* Centrar texto */
+}
+
+footer p {
+  margin: 0; /* Sin margen */
+  color: #fff; /* Color del texto */
+  font-size: 0.9rem; /* Tamaño de fuente más pequeño */
+}

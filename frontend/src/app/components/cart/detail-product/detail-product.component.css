@@ -1,0 +1,104 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f9f9f9; /* Color de fondo blanco */
+  color: #333; /* Color gris oscuro para el texto */
+}
+
+.container {
+  max-width: 800px; /* Ancho máximo del contenedor */
+  margin: 2rem auto; /* Margen centrado */
+  padding: 1rem; /* Espaciado interno */
+}
+
+h1 {
+  font-size: 2rem; /* Tamaño de fuente del encabezado principal */
+  margin-bottom: 1rem; /* Espaciado inferior */
+  text-align: center; /* Centrar texto */
+}
+
+.breadcrumb {
+  background: transparent; /* Fondo transparente para las migas de pan */
+  padding: 0; /* Sin padding */
+  margin-bottom: 1rem; /* Espaciado inferior */
+}
+
+.breadcrumb-item a {
+  color: #333; /* Color gris oscuro para los enlaces */
+  text-decoration: none; /* Sin subrayado */
+}
+
+.card {
+    background: #fff; /* Fondo blanco para la tarjeta */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 1.5rem; /* Espaciado interno */
+    box-shadow: none; /* Sin sombra */
+    margin-bottom: 1.5rem; /* Espacio inferior entre tarjetas */
+}
+.card-title {
+  font-size: 1.5rem; /* Tamaño de fuente del título del producto */
+  margin-bottom: 0.5rem; /* Espaciado inferior */
+}
+
+.row {
+  display: flex; /* Usar flexbox para la disposición */
+  flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
+}
+
+.col-lg-6 {
+  flex: 1; /* Permitir que las columnas crezcan */
+  min-width: 300px; /* Ancho mínimo para las columnas */
+}
+
+.list-group-item {
+  border: none; /* Sin borde */
+  padding: 0.5rem 0; /* Espaciado interno */
+}
+
+input[type="number"] {
+  width: 50px; /* Ancho del campo de cantidad */
+  padding: 5px; /* Espaciado interno */
+  border: 1px solid #ccc; /* Borde gris claro */
+  border-radius: 4px; /* Bordes redondeados */
+}
+
+.btn-dark {
+  color: #fff; /* Color del texto */
+  background: #333; /* Color gris oscuro */
+  font-size: 1rem; /* Tamaño de fuente */
+  padding: 10px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  width: 100%; /* Ancho completo */
+  cursor: pointer; /* Cambiar cursor al pasar el mouse */
+  transition: background 0.3s; /* Transición suave */
+}
+
+.btn-dark:hover {
+  background: #555; /* Color gris más claro al pasar el mouse */
+}
+
+/* Aumentar el espacio entre la imagen y la descripción */
+
+  .card-body img {
+    display: block; /* Asegurarse de que la imagen sea un bloque */
+    margin-bottom: 1.5rem; /* Margen inferior para la imagen */
+  }
+  
+  .card-body .description {
+    padding-top: 1rem; /* Padding superior para la descripción */
+  }
+
+  .img-fluid {
+    max-width: 90%;
+    height: auto;
+  }

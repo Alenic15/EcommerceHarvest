@@ -1,0 +1,101 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f9f9f9; /* Color de fondo blanco */
+  color: #333; /* Color gris oscuro para el texto */
+}
+
+.container {
+  max-width: 800px; /* Ancho máximo del contenedor */
+  margin: 2rem auto; /* Margen centrado */
+  padding: 1rem; /* Espaciado interno */
+}
+
+h1 {
+  font-size: 2rem; /* Tamaño de fuente del encabezado principal */
+  margin-bottom: 1rem; /* Espaciado inferior */
+  text-align: center; /* Centrar texto */
+}
+
+.breadcrumb {
+  background: transparent; /* Fondo transparente para las migas de pan */
+  padding: 0; /* Sin padding */
+  margin-bottom: 1rem; /* Espaciado inferior */
+}
+
+.breadcrumb-item a {
+  color: #333; /* Color gris oscuro para los enlaces */
+  text-decoration: none; /* Sin subrayado */
+}
+
+.btn-primary {
+  color: #fff; /* Color del texto */
+  background: #333; /* Color gris oscuro para el botón "Crear Producto" */
+  font-size: 1rem; /* Tamaño de fuente */
+  padding: 10px 15px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cambiar cursor al pasar el mouse */
+  transition: background 0.3s; /* Transición suave */
+  display: inline-block; /* Para que el botón se comporte como un bloque en línea */
+  margin-bottom: 1rem; /* Espacio inferior para el botón */
+}
+
+.btn-primary:hover {
+  background: #555; /* Color gris más claro al pasar el mouse */
+}
+
+.table {
+  width: 100%; /* Ancho completo de la tabla */
+  margin-top: 1rem; /* Espacio superior para la tabla */
+  border-collapse: collapse; /* Colapsar bordes de la tabla */
+}
+
+.table th, .table td {
+  padding: 10px; /* Espaciado interno para celdas */
+  text-align: left; /* Alinear texto a la izquierda */
+  border-bottom: 1px solid #ccc; /* Borde inferior para las filas */
+}
+
+.table th {
+  background: #f2f2f2; /* Fondo gris claro para el encabezado de la tabla */
+  font-weight: bold; /* Negrita para el encabezado */
+}
+
+/* Botón Editar */
+.btn-warning {
+  color: #fff; /* Color del texto */
+  background: #8B4513; /* Color marrón para el botón "Editar" (SaddleBrown) */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  padding: 5px 10px; /* Espaciado interno */
+  cursor: pointer; /* Cambiar cursor al pasar el mouse */
+  transition: background 0.3s; /* Transición suave */
+}
+
+.btn-warning:hover {
+  background: #A0522D; /* Color marrón más claro al pasar el mouse (Sienna) */
+}
+
+/* Botón Eliminar */
+.btn-danger {
+  color: #fff; /* Color del texto */
+  background: #5C4033; /* Color marrón oscuro para el botón "Eliminar" */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  padding: 5px 10px; /* Espaciado interno */
+  cursor: pointer; /* Cambiar cursor al pasar el mouse */
+  transition: background 0.3s; /* Transición suave */
+}
+
+.btn-danger:hover {
+  background: #7B5B4D; /* Color marrón más claro al pasar el mouse */
+}

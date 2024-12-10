@@ -1,0 +1,81 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f9f9f9; /* Color de fondo blanco */
+  color: #333; /* Color gris oscuro para el texto */
+}
+
+.container {
+  max-width: 800px; /* Ancho máximo del contenedor */
+  margin: 2rem auto; /* Margen centrado */
+  padding: 1rem; /* Espaciado interno */
+}
+
+h1 {
+  font-size: 2rem; /* Tamaño de fuente del encabezado principal */
+  margin-bottom: 1rem; /* Espaciado inferior */
+  text-align: center; /* Centrar texto */
+}
+
+.breadcrumb {
+  background: transparent; /* Fondo transparente para las migas de pan */
+  padding: 0; /* Sin padding */
+  margin-bottom: 1rem; /* Espaciado inferior */
+}
+
+.breadcrumb-item a {
+  color: #333; /* Color gris oscuro para los enlaces */
+  text-decoration: none; /* Sin subrayado */
+}
+
+.form-horizontal {
+  background: #fff; /* Fondo blanco para el formulario */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 1.5rem; /* Espaciado interno */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  margin-bottom: 1.5rem; /* Espacio inferior entre formularios */
+}
+
+.form-group {
+  margin-bottom: 1rem; /* Espacio entre grupos de formulario */
+}
+
+.control-label {
+  font-weight: bold; /* Negrita para las etiquetas */
+}
+
+input[type="text"], input[type="number"] {
+  width: 100%; /* Ancho completo */
+  padding: 10px; /* Espaciado interno */
+  border: 1px solid #ccc; /* Borde gris claro */
+  border-radius: 4px; /* Bordes redondeados */
+}
+
+.btn-success {
+  color: #fff; /* Color del texto */
+  background: #333; /* Color gris oscuro (igual que el botón de detalle) */
+  font-size: 1rem; /* Tamaño de fuente */
+  padding: 10px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cambiar cursor al pasar el mouse */
+  transition: background 0.3s; /* Transición suave */
+}
+
+.btn-success:hover {
+  background: #555; /* Color gris más claro al pasar el mouse (igual que el botón de detalle) */
+}
+
+/* Espaciado adicional para el botón */
+.row {
+  margin-top: 1rem; /* Espacio superior para la fila del botón */
+}

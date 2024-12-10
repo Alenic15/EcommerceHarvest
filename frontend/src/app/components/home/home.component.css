@@ -1,0 +1,118 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f9f9f9; /* Color de fondo blanco */
+  color: #333; /* Color gris oscuro para el texto */
+}
+
+.container {
+  max-width: 1200px; /* Ancho máximo del contenedor */
+  margin: 2rem auto; /* Margen centrado */
+  padding: 1rem; /* Espaciado interno */
+}
+
+.jumbotron {
+  background-color: #343a40; /* Color de fondo oscuro */
+  color: #fff; /* Color del texto */
+  padding: 2rem 1rem; /* Espaciado */
+  border-radius: 0.5rem; /* Bordes redondeados */
+  margin-bottom: 2rem; /* Margen inferior */
+}
+
+.jumbotron h1 {
+  font-size: 2.5rem; /* Tamaño de fuente del encabezado principal */
+  margin-bottom: 1rem; /* Espaciado inferior */
+  text-align: center; /* Centrar texto */
+}
+
+.jumbotron p {
+  font-size: 1.25rem; /* Tamaño de fuente para el texto */
+  text-align: center; /* Centrar texto */
+}
+
+.main-content {
+  padding: 20px 0; /* Espaciado superior e inferior */
+}
+
+.row {
+  display: flex; /* Usar flexbox para la disposición */
+  flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
+  justify-content: space-between; /* Espacio entre los elementos */
+}
+
+.col-md-3 {
+  flex: 0 0 23%; /* Ancho del 23% para 4 columnas */
+  max-width: 23%; /* Ancho máximo del 23% */
+  margin-bottom: 1.5rem; /* Espacio inferior entre productos */
+}
+
+.product-box {
+  background: #fff; /* Color de fondo blanco para los productos */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 1.5rem; /* Espaciado interno */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  text-align: center; /* Centrar texto */
+  transition: transform 0.2s; /* Transición suave para el efecto hover */
+}
+
+.product-box:hover {
+  transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+}
+
+.product-box img {
+  max-width: 100%; /* Asegurar que la imagen no exceda el ancho del contenedor */
+  height: 200px; /* Altura fija para las imágenes */
+  object-fit: cover; /* Mantener la proporción de la imagen */
+  border-radius: 0.5rem; /* Bordes redondeados para la imagen */
+}
+
+.card-text {
+    font-size: 1rem; /* Tamaño de fuente para el nombre del producto (disminuido) */
+    margin: 10px 0; /* Margen superior e inferior */
+  }
+  
+  .price {
+    font-size: 0.875rem; /* Tamaño de fuente para el precio */
+    color: #333; /* Color del precio (gris oscuro) */
+    margin-bottom: 15px; /* Margen inferior */
+  }
+  
+  .primary-btn {
+    background-color: #555; /* Color de fondo del botón (gris medio) */
+    color: #fff; /* Color del texto del botón (blanco) */
+    padding: 10px 15px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    text-decoration: none; /* Sin subrayado */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+  }
+  
+  .primary-btn:hover {
+    background-color: #444; /* Color de fondo al pasar el mouse (gris más oscuro) */
+  }
+
+  /* Estilos para el Footer */
+footer {
+    background-color: #343a40; /* Color de fondo oscuro */
+    padding: 0; /* Espaciado superior e inferior */
+    margin: 0; /* Asegúrate de que no haya margen adicional */
+    display: flex; /* Usar flexbox para alinear elementos */
+    justify-content: center; /* Centrar contenido horizontalmente */
+    align-items: center; /* Centrar contenido verticalmente */
+    height: 50px; /* Ajusta la altura según sea necesario */
+  }
+  
+  footer p {
+    margin: 0; /* Sin margen */
+    color: #fff; /* Color del texto */
+    text-align: center; /* Centrar texto */
+  }

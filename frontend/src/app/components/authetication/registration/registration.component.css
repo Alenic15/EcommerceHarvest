@@ -1,0 +1,81 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f9f9f9; /* Color de fondo blanco */
+  color: #333; /* Color gris oscuro para el texto */
+}
+
+.container {
+  max-width: 300px; /* Ancho máximo del contenedor para el registro */
+  margin: 5rem auto; /* Margen centrado */
+  padding: 1.5rem; /* Espaciado interno reducido */
+  background: #fff; /* Fondo blanco para el formulario */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para el contenedor */
+}
+
+h2 {
+  font-size: 1.25rem; /* Tamaño de fuente del encabezado reducido */
+  margin-bottom: 1rem; /* Espaciado inferior */
+  text-align: center; /* Centrar texto */
+}
+
+.form-group {
+  margin-bottom: 0.75rem; /* Espaciado inferior entre grupos de formulario reducido */
+}
+
+label {
+  display: block; /* Hacer que las etiquetas ocupen todo el ancho */
+  margin-bottom: 0.25rem; /* Espaciado inferior para las etiquetas reducido */
+}
+
+input {
+  width: 100%; /* Ancho completo para los campos de entrada */
+  padding: 8px; /* Espaciado interno reducido */
+  border: 1px solid #ccc; /* Borde gris claro */
+  border-radius: 4px; /* Bordes redondeados */
+  font-size: 0.9rem; /* Tamaño de fuente reducido */
+}
+
+input:focus {
+  border-color: #333; /* Cambiar color del borde al enfocar */
+  outline: none; /* Sin contorno */
+}
+
+.btn-dark {
+  color: #fff; /* Color del texto */
+  background: #333; /* Color gris oscuro para el botón "Guardar" */
+  font-size: 0.9rem; /* Tamaño de fuente reducido */
+  padding: 8px; /* Espaciado interno reducido */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cambiar cursor al pasar el mouse */
+  transition: background 0.3s; /* Transición suave */
+  display: inline-block; /* Para que el botón se comporte como un bloque en línea */
+  width: 100%; /* Ancho completo para el botón */
+}
+
+.btn-dark:hover {
+  background: #555; /* Color gris más claro al pasar el mouse */
+}
+
+.card-link {
+  display: block; /* Hacer que el enlace ocupe todo el ancho */
+  text-align: center; /* Centrar texto */
+  margin-top: 1rem; /* Espaciado superior */
+  color: #333; /* Color marrón para el enlace (SaddleBrown) */
+  text-decoration: none; /* Sin subrayado */
+  font-size: 0.9rem; /* Tamaño de fuente reducido */
+}
+
+.card-link:hover {
+  text-decoration: underline; /* Subrayar al pasar el mouse */
+}

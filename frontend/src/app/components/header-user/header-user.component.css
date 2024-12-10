@@ -1,0 +1,45 @@
+/* Importar Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Estilos para el Header */
+.navbar {
+  background-color: #333; /* Color de fondo oscuro */
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Tamaño de fuente para el nombre de la marca */
+  color: #fff; /* Color del texto de la marca */
+  font-family: 'Poppins', sans-serif; /* Aplicar la fuente Poppins */
+}
+
+.navbar-brand:hover {
+  color: #f9f9f9; /* Color del texto al pasar el mouse */
+}
+
+.navbar-nav .nav-link {
+  color: #fff; /* Color del texto de los enlaces */
+  font-size: 1rem; /* Tamaño de fuente para los enlaces */
+  font-family: 'Poppins', sans-serif; /* Aplicar la fuente Poppins */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f9f9f9; /* Color del texto al pasar el mouse */
+}
+
+.navbar-nav .form-control {
+  width: 200px; /* Ancho del campo de búsqueda */
+}
+
+.btn-outline-success {
+  color: #fff; /* Color del texto del botón */
+  border-color: #fff; /* Color del borde del botón */
+}
+
+.btn-outline-success:hover {
+  background-color: #28a745; /* Color de fondo al pasar el mouse */
+  color: #fff; /* Color del texto al pasar el mouse */
+}
+
+.collapse {
+  transition: all 0.3s ease; /* Transición suave para el colapso */
+}
