@@ -1,4 +1,4 @@
 package com.code.ecommerceharvest.backend.infrastructure.dto;
 
-public record JWTClient() {
+public record JWTClient(Integer id, String token, String type) {
 }
